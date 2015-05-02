@@ -18,6 +18,7 @@ fi
 echo "[Artifactory]" > $FILE
 echo "name=Artifactory" >> $FILE
 echo "baseurl=http://dcs-artifactory.nuance.com:8081/artifactory/dcs/" >> $FILE
+echo "keepcache=0" >> $FILE
 echo "gpgcheck=0" >> $FILE
 echo "enabled=1" >> $FILE
 
